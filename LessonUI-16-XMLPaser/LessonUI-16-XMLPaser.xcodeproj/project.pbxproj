@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52DAC48D1B9A8BAD00CCA8FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DAC48C1B9A8BAD00CCA8FC /* main.m */; };
+		52DAC4901B9A8BAD00CCA8FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DAC48F1B9A8BAD00CCA8FC /* AppDelegate.m */; };
+		52DAC4931B9A8BAD00CCA8FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DAC4921B9A8BAD00CCA8FC /* ViewController.m */; };
+		52DAC4961B9A8BAD00CCA8FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DAC4941B9A8BAD00CCA8FC /* Main.storyboard */; };
+		52DAC4981B9A8BAD00CCA8FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DAC4971B9A8BAD00CCA8FC /* Images.xcassets */; };
+		52DAC49B1B9A8BAD00CCA8FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DAC4991B9A8BAD00CCA8FC /* LaunchScreen.xib */; };
+		52DAC4A71B9A8BAD00CCA8FC /* LessonUI_16_XMLPaserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DAC4A61B9A8BAD00CCA8FC /* LessonUI_16_XMLPaserTests.m */; };
+		52DAC4B11B9A8E7700CCA8FC /* Message.xml in Resources */ = {isa = PBXBuildFile; fileRef = 52DAC4B01B9A8E7700CCA8FC /* Message.xml */; };
+		52DAC4B51B9ABB1500CCA8FC /* Categories.xml in Resources */ = {isa = PBXBuildFile; fileRef = 52DAC4B41B9ABB1500CCA8FC /* Categories.xml */; };
+		52DAC4B81B9ABFFF00CCA8FC /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DAC4B71B9ABFFF00CCA8FC /* GDataXMLNode.m */; };
+		52DAC4BA1B9AC28F00CCA8FC /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DAC4B91B9AC28F00CCA8FC /* libxml2.2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DAC4A11B9A8BAD00CCA8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DAC47F1B9A8BAD00CCA8FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DAC4861B9A8BAD00CCA8FC;
+			remoteInfo = "LessonUI-16-XMLPaser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52DAC4871B9A8BAD00CCA8FC /* LessonUI-16-XMLPaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LessonUI-16-XMLPaser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DAC48B1B9A8BAD00CCA8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DAC48C1B9A8BAD00CCA8FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52DAC48E1B9A8BAD00CCA8FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52DAC48F1B9A8BAD00CCA8FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52DAC4911B9A8BAD00CCA8FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52DAC4921B9A8BAD00CCA8FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52DAC4951B9A8BAD00CCA8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DAC4971B9A8BAD00CCA8FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52DAC49A1B9A8BAD00CCA8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52DAC4A01B9A8BAD00CCA8FC /* LessonUI-16-XMLPaserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LessonUI-16-XMLPaserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DAC4A51B9A8BAD00CCA8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DAC4A61B9A8BAD00CCA8FC /* LessonUI_16_XMLPaserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonUI_16_XMLPaserTests.m; sourceTree = "<group>"; };
+		52DAC4B01B9A8E7700CCA8FC /* Message.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Message.xml; sourceTree = "<group>"; };
+		52DAC4B41B9ABB1500CCA8FC /* Categories.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Categories.xml; sourceTree = "<group>"; };
+		52DAC4B61B9ABFFF00CCA8FC /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		52DAC4B71B9ABFFF00CCA8FC /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		52DAC4B91B9AC28F00CCA8FC /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DAC4841B9A8BAD00CCA8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DAC4BA1B9AC28F00CCA8FC /* libxml2.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DAC49D1B9A8BAD00CCA8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DAC47E1B9A8BAD00CCA8FC = {
+			isa = PBXGroup;
+			children = (
+				52DAC4B91B9AC28F00CCA8FC /* libxml2.2.dylib */,
+				52DAC4891B9A8BAD00CCA8FC /* LessonUI-16-XMLPaser */,
+				52DAC4A31B9A8BAD00CCA8FC /* LessonUI-16-XMLPaserTests */,
+				52DAC4881B9A8BAD00CCA8FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DAC4881B9A8BAD00CCA8FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DAC4871B9A8BAD00CCA8FC /* LessonUI-16-XMLPaser.app */,
+				52DAC4A01B9A8BAD00CCA8FC /* LessonUI-16-XMLPaserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DAC4891B9A8BAD00CCA8FC /* LessonUI-16-XMLPaser */ = {
+			isa = PBXGroup;
+			children = (
+				52DAC48E1B9A8BAD00CCA8FC /* AppDelegate.h */,
+				52DAC48F1B9A8BAD00CCA8FC /* AppDelegate.m */,
+				52DAC4911B9A8BAD00CCA8FC /* ViewController.h */,
+				52DAC4921B9A8BAD00CCA8FC /* ViewController.m */,
+				52DAC4941B9A8BAD00CCA8FC /* Main.storyboard */,
+				52DAC4B61B9ABFFF00CCA8FC /* GDataXMLNode.h */,
+				52DAC4B71B9ABFFF00CCA8FC /* GDataXMLNode.m */,
+				52DAC4B41B9ABB1500CCA8FC /* Categories.xml */,
+				52DAC4B01B9A8E7700CCA8FC /* Message.xml */,
+				52DAC4971B9A8BAD00CCA8FC /* Images.xcassets */,
+				52DAC4991B9A8BAD00CCA8FC /* LaunchScreen.xib */,
+				52DAC48A1B9A8BAD00CCA8FC /* Supporting Files */,
+			);
+			path = "LessonUI-16-XMLPaser";
+			sourceTree = "<group>";
+		};
+		52DAC48A1B9A8BAD00CCA8FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DAC48B1B9A8BAD00CCA8FC /* Info.plist */,
+				52DAC48C1B9A8BAD00CCA8FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52DAC4A31B9A8BAD00CCA8FC /* LessonUI-16-XMLPaserTests */ = {
+			isa = PBXGroup;
+			children = (
+				52DAC4A61B9A8BAD00CCA8FC /* LessonUI_16_XMLPaserTests.m */,
+				52DAC4A41B9A8BAD00CCA8FC /* Supporting Files */,
+			);
+			path = "LessonUI-16-XMLPaserTests";
+			sourceTree = "<group>";
+		};
+		52DAC4A41B9A8BAD00CCA8FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DAC4A51B9A8BAD00CCA8FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DAC4861B9A8BAD00CCA8FC /* LessonUI-16-XMLPaser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DAC4AA1B9A8BAD00CCA8FC /* Build configuration list for PBXNativeTarget "LessonUI-16-XMLPaser" */;
+			buildPhases = (
+				52DAC4831B9A8BAD00CCA8FC /* Sources */,
+				52DAC4841B9A8BAD00CCA8FC /* Frameworks */,
+				52DAC4851B9A8BAD00CCA8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LessonUI-16-XMLPaser";
+			productName = "LessonUI-16-XMLPaser";
+			productReference = 52DAC4871B9A8BAD00CCA8FC /* LessonUI-16-XMLPaser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52DAC49F1B9A8BAD00CCA8FC /* LessonUI-16-XMLPaserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DAC4AD1B9A8BAD00CCA8FC /* Build configuration list for PBXNativeTarget "LessonUI-16-XMLPaserTests" */;
+			buildPhases = (
+				52DAC49C1B9A8BAD00CCA8FC /* Sources */,
+				52DAC49D1B9A8BAD00CCA8FC /* Frameworks */,
+				52DAC49E1B9A8BAD00CCA8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DAC4A21B9A8BAD00CCA8FC /* PBXTargetDependency */,
+			);
+			name = "LessonUI-16-XMLPaserTests";
+			productName = "LessonUI-16-XMLPaserTests";
+			productReference = 52DAC4A01B9A8BAD00CCA8FC /* LessonUI-16-XMLPaserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DAC47F1B9A8BAD00CCA8FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Lafree;
+				TargetAttributes = {
+					52DAC4861B9A8BAD00CCA8FC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					52DAC49F1B9A8BAD00CCA8FC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52DAC4861B9A8BAD00CCA8FC;
+					};
+				};
+			};
+			buildConfigurationList = 52DAC4821B9A8BAD00CCA8FC /* Build configuration list for PBXProject "LessonUI-16-XMLPaser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DAC47E1B9A8BAD00CCA8FC;
+			productRefGroup = 52DAC4881B9A8BAD00CCA8FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DAC4861B9A8BAD00CCA8FC /* LessonUI-16-XMLPaser */,
+				52DAC49F1B9A8BAD00CCA8FC /* LessonUI-16-XMLPaserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DAC4851B9A8BAD00CCA8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DAC4961B9A8BAD00CCA8FC /* Main.storyboard in Resources */,
+				52DAC4B51B9ABB1500CCA8FC /* Categories.xml in Resources */,
+				52DAC49B1B9A8BAD00CCA8FC /* LaunchScreen.xib in Resources */,
+				52DAC4981B9A8BAD00CCA8FC /* Images.xcassets in Resources */,
+				52DAC4B11B9A8E7700CCA8FC /* Message.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DAC49E1B9A8BAD00CCA8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DAC4831B9A8BAD00CCA8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DAC4931B9A8BAD00CCA8FC /* ViewController.m in Sources */,
+				52DAC4B81B9ABFFF00CCA8FC /* GDataXMLNode.m in Sources */,
+				52DAC4901B9A8BAD00CCA8FC /* AppDelegate.m in Sources */,
+				52DAC48D1B9A8BAD00CCA8FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DAC49C1B9A8BAD00CCA8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DAC4A71B9A8BAD00CCA8FC /* LessonUI_16_XMLPaserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DAC4A21B9A8BAD00CCA8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DAC4861B9A8BAD00CCA8FC /* LessonUI-16-XMLPaser */;
+			targetProxy = 52DAC4A11B9A8BAD00CCA8FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52DAC4941B9A8BAD00CCA8FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DAC4951B9A8BAD00CCA8FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52DAC4991B9A8BAD00CCA8FC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DAC49A1B9A8BAD00CCA8FC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DAC4A81B9A8BAD00CCA8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52DAC4A91B9A8BAD00CCA8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DAC4AB1B9A8BAD00CCA8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "LessonUI-16-XMLPaser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52DAC4AC1B9A8BAD00CCA8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "LessonUI-16-XMLPaser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52DAC4AE1B9A8BAD00CCA8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-16-XMLPaserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-16-XMLPaser.app/LessonUI-16-XMLPaser";
+			};
+			name = Debug;
+		};
+		52DAC4AF1B9A8BAD00CCA8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-16-XMLPaserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-16-XMLPaser.app/LessonUI-16-XMLPaser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DAC4821B9A8BAD00CCA8FC /* Build configuration list for PBXProject "LessonUI-16-XMLPaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DAC4A81B9A8BAD00CCA8FC /* Debug */,
+				52DAC4A91B9A8BAD00CCA8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DAC4AA1B9A8BAD00CCA8FC /* Build configuration list for PBXNativeTarget "LessonUI-16-XMLPaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DAC4AB1B9A8BAD00CCA8FC /* Debug */,
+				52DAC4AC1B9A8BAD00CCA8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DAC4AD1B9A8BAD00CCA8FC /* Build configuration list for PBXNativeTarget "LessonUI-16-XMLPaserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DAC4AE1B9A8BAD00CCA8FC /* Debug */,
+				52DAC4AF1B9A8BAD00CCA8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DAC47F1B9A8BAD00CCA8FC /* Project object */;
+}

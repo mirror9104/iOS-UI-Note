@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52794B2E1B9011B30002AE89 /* SingoleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 52794B2D1B9011B30002AE89 /* SingoleClass.m */; };
+		52794B311B903D390002AE89 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52794B301B903D390002AE89 /* secondViewController.m */; };
+		52ED71CC1B8FFB540075C70E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED71CB1B8FFB540075C70E /* main.m */; };
+		52ED71CF1B8FFB540075C70E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED71CE1B8FFB540075C70E /* AppDelegate.m */; };
+		52ED71D11B8FFB540075C70E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ED71D01B8FFB540075C70E /* Images.xcassets */; };
+		52ED71D41B8FFB540075C70E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ED71D21B8FFB540075C70E /* LaunchScreen.xib */; };
+		52ED71E01B8FFB540075C70E /* LessonUI_12_PresssentViewController_ModalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED71DF1B8FFB540075C70E /* LessonUI_12_PresssentViewController_ModalTests.m */; };
+		52ED71EB1B8FFB820075C70E /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED71EA1B8FFB820075C70E /* PushViewController.m */; };
+		52ED71EE1B8FFB890075C70E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED71ED1B8FFB890075C70E /* RootViewController.m */; };
+		52ED71F41B8FFD690075C70E /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED71F31B8FFD690075C70E /* ModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52ED71DA1B8FFB540075C70E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ED71BE1B8FFB540075C70E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ED71C51B8FFB540075C70E;
+			remoteInfo = "LessonUI-12-PresssentViewController Modal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52794B2C1B9011B30002AE89 /* SingoleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingoleClass.h; sourceTree = "<group>"; };
+		52794B2D1B9011B30002AE89 /* SingoleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingoleClass.m; sourceTree = "<group>"; };
+		52794B2F1B903D390002AE89 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		52794B301B903D390002AE89 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		52ED71C61B8FFB540075C70E /* LessonUI-12-PresssentViewController Modal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LessonUI-12-PresssentViewController Modal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED71CA1B8FFB540075C70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ED71CB1B8FFB540075C70E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52ED71CD1B8FFB540075C70E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52ED71CE1B8FFB540075C70E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52ED71D01B8FFB540075C70E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52ED71D31B8FFB540075C70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52ED71D91B8FFB540075C70E /* LessonUI-12-PresssentViewController ModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LessonUI-12-PresssentViewController ModalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED71DE1B8FFB540075C70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ED71DF1B8FFB540075C70E /* LessonUI_12_PresssentViewController_ModalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonUI_12_PresssentViewController_ModalTests.m; sourceTree = "<group>"; };
+		52ED71E91B8FFB820075C70E /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		52ED71EA1B8FFB820075C70E /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		52ED71EC1B8FFB890075C70E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		52ED71ED1B8FFB890075C70E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		52ED71F21B8FFD690075C70E /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		52ED71F31B8FFD690075C70E /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52ED71C31B8FFB540075C70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED71D61B8FFB540075C70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52ED71BD1B8FFB540075C70E = {
+			isa = PBXGroup;
+			children = (
+				52ED71C81B8FFB540075C70E /* LessonUI-12-PresssentViewController Modal */,
+				52ED71DC1B8FFB540075C70E /* LessonUI-12-PresssentViewController ModalTests */,
+				52ED71C71B8FFB540075C70E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52ED71C71B8FFB540075C70E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52ED71C61B8FFB540075C70E /* LessonUI-12-PresssentViewController Modal.app */,
+				52ED71D91B8FFB540075C70E /* LessonUI-12-PresssentViewController ModalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52ED71C81B8FFB540075C70E /* LessonUI-12-PresssentViewController Modal */ = {
+			isa = PBXGroup;
+			children = (
+				52ED71CD1B8FFB540075C70E /* AppDelegate.h */,
+				52ED71CE1B8FFB540075C70E /* AppDelegate.m */,
+				52794B2C1B9011B30002AE89 /* SingoleClass.h */,
+				52794B2D1B9011B30002AE89 /* SingoleClass.m */,
+				52ED71EC1B8FFB890075C70E /* RootViewController.h */,
+				52ED71ED1B8FFB890075C70E /* RootViewController.m */,
+				52ED71F21B8FFD690075C70E /* ModalViewController.h */,
+				52ED71F31B8FFD690075C70E /* ModalViewController.m */,
+				52ED71E91B8FFB820075C70E /* PushViewController.h */,
+				52ED71EA1B8FFB820075C70E /* PushViewController.m */,
+				52794B2F1B903D390002AE89 /* secondViewController.h */,
+				52794B301B903D390002AE89 /* secondViewController.m */,
+				52ED71D01B8FFB540075C70E /* Images.xcassets */,
+				52ED71D21B8FFB540075C70E /* LaunchScreen.xib */,
+				52ED71C91B8FFB540075C70E /* Supporting Files */,
+			);
+			path = "LessonUI-12-PresssentViewController Modal";
+			sourceTree = "<group>";
+		};
+		52ED71C91B8FFB540075C70E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52ED71CA1B8FFB540075C70E /* Info.plist */,
+				52ED71CB1B8FFB540075C70E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52ED71DC1B8FFB540075C70E /* LessonUI-12-PresssentViewController ModalTests */ = {
+			isa = PBXGroup;
+			children = (
+				52ED71DF1B8FFB540075C70E /* LessonUI_12_PresssentViewController_ModalTests.m */,
+				52ED71DD1B8FFB540075C70E /* Supporting Files */,
+			);
+			path = "LessonUI-12-PresssentViewController ModalTests";
+			sourceTree = "<group>";
+		};
+		52ED71DD1B8FFB540075C70E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52ED71DE1B8FFB540075C70E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52ED71C51B8FFB540075C70E /* LessonUI-12-PresssentViewController Modal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ED71E31B8FFB540075C70E /* Build configuration list for PBXNativeTarget "LessonUI-12-PresssentViewController Modal" */;
+			buildPhases = (
+				52ED71C21B8FFB540075C70E /* Sources */,
+				52ED71C31B8FFB540075C70E /* Frameworks */,
+				52ED71C41B8FFB540075C70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LessonUI-12-PresssentViewController Modal";
+			productName = "LessonUI-12-PresssentViewController Modal";
+			productReference = 52ED71C61B8FFB540075C70E /* LessonUI-12-PresssentViewController Modal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52ED71D81B8FFB540075C70E /* LessonUI-12-PresssentViewController ModalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ED71E61B8FFB540075C70E /* Build configuration list for PBXNativeTarget "LessonUI-12-PresssentViewController ModalTests" */;
+			buildPhases = (
+				52ED71D51B8FFB540075C70E /* Sources */,
+				52ED71D61B8FFB540075C70E /* Frameworks */,
+				52ED71D71B8FFB540075C70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ED71DB1B8FFB540075C70E /* PBXTargetDependency */,
+			);
+			name = "LessonUI-12-PresssentViewController ModalTests";
+			productName = "LessonUI-12-PresssentViewController ModalTests";
+			productReference = 52ED71D91B8FFB540075C70E /* LessonUI-12-PresssentViewController ModalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52ED71BE1B8FFB540075C70E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Lafree;
+				TargetAttributes = {
+					52ED71C51B8FFB540075C70E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					52ED71D81B8FFB540075C70E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52ED71C51B8FFB540075C70E;
+					};
+				};
+			};
+			buildConfigurationList = 52ED71C11B8FFB540075C70E /* Build configuration list for PBXProject "LessonUI-12-PresssentViewController Modal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52ED71BD1B8FFB540075C70E;
+			productRefGroup = 52ED71C71B8FFB540075C70E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52ED71C51B8FFB540075C70E /* LessonUI-12-PresssentViewController Modal */,
+				52ED71D81B8FFB540075C70E /* LessonUI-12-PresssentViewController ModalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52ED71C41B8FFB540075C70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED71D41B8FFB540075C70E /* LaunchScreen.xib in Resources */,
+				52ED71D11B8FFB540075C70E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED71D71B8FFB540075C70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52ED71C21B8FFB540075C70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED71CF1B8FFB540075C70E /* AppDelegate.m in Sources */,
+				52ED71CC1B8FFB540075C70E /* main.m in Sources */,
+				52794B311B903D390002AE89 /* secondViewController.m in Sources */,
+				52794B2E1B9011B30002AE89 /* SingoleClass.m in Sources */,
+				52ED71F41B8FFD690075C70E /* ModalViewController.m in Sources */,
+				52ED71EE1B8FFB890075C70E /* RootViewController.m in Sources */,
+				52ED71EB1B8FFB820075C70E /* PushViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED71D51B8FFB540075C70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED71E01B8FFB540075C70E /* LessonUI_12_PresssentViewController_ModalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52ED71DB1B8FFB540075C70E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ED71C51B8FFB540075C70E /* LessonUI-12-PresssentViewController Modal */;
+			targetProxy = 52ED71DA1B8FFB540075C70E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52ED71D21B8FFB540075C70E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ED71D31B8FFB540075C70E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52ED71E11B8FFB540075C70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52ED71E21B8FFB540075C70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52ED71E41B8FFB540075C70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "LessonUI-12-PresssentViewController Modal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52ED71E51B8FFB540075C70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "LessonUI-12-PresssentViewController Modal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52ED71E71B8FFB540075C70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-12-PresssentViewController ModalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-12-PresssentViewController Modal.app/LessonUI-12-PresssentViewController Modal";
+			};
+			name = Debug;
+		};
+		52ED71E81B8FFB540075C70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-12-PresssentViewController ModalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-12-PresssentViewController Modal.app/LessonUI-12-PresssentViewController Modal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52ED71C11B8FFB540075C70E /* Build configuration list for PBXProject "LessonUI-12-PresssentViewController Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED71E11B8FFB540075C70E /* Debug */,
+				52ED71E21B8FFB540075C70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ED71E31B8FFB540075C70E /* Build configuration list for PBXNativeTarget "LessonUI-12-PresssentViewController Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED71E41B8FFB540075C70E /* Debug */,
+				52ED71E51B8FFB540075C70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ED71E61B8FFB540075C70E /* Build configuration list for PBXNativeTarget "LessonUI-12-PresssentViewController ModalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED71E71B8FFB540075C70E /* Debug */,
+				52ED71E81B8FFB540075C70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52ED71BE1B8FFB540075C70E /* Project object */;
+}

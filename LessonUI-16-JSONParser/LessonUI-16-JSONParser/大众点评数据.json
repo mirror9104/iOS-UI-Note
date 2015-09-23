@@ -1,0 +1,56 @@
+{
+  "status": "OK",
+  "total_count": 16,
+  "count": 1,
+  "businesses": [
+    {
+      "business_id": 2951611,
+      "name": "香草香草云南原生态火锅",
+      "branch_name": "大理店",
+      "address": "海淀区苏州街55号名商大厦2楼",
+      "telephone": "010-82621976",
+      "city": "北京",
+      "regions": [
+        "海淀区",
+        "苏州桥"
+      ],
+      "categories": [
+        "火锅",
+        "婚宴酒店"
+      ],
+      "latitude": 39.97193,
+      "longitude": 116.30635,
+      "avg_rating": 5,
+      "rating_img_url": "http://i1.dpfile.com/s/i/app/api/32_5star.png",
+      "rating_s_img_url": "http://i1.dpfile.com/s/i/app/api/16_5star.png",
+      "product_grade": 5,
+      "decoration_grade": 4,
+      "service_grade": 5,
+      "product_score": 9,
+      "decoration_score": 8.7,
+      "service_score": 9.2,
+      "avg_price": 87,
+      "review_count": 4788,
+      "distance": -1,
+      "business_url": "http://dpurl.cn/p/MV7etBc23J",
+      "photo_url": "http://i1.dpfile.com/2009-02-28/1647031_b.jpg(700x700)/thumb.jpg",
+      "s_photo_url": "http://i3.dpfile.com/2009-02-28/1647031_b.jpg(278x200)/thumb.jpg",
+      "has_coupon": 1,
+      "coupon_id": 205955,
+      "coupon_description": "三种优惠，尽享原汁原味",
+      "coupon_url": "http://dpurl.cn/p/N9a9c1hCZb",
+      "has_deal": 1,
+      "deal_count": 1,
+      "deals": [
+        {
+          "id": "2-5105493",
+          "description": "香草香草云南原生态火锅!仅售75元,价值100元代金券1张!别样生态美食来袭,精心制作搭配巧妙!慕名觅美食,邂逅久难忘!",
+          "url": "http://dpurl.cn/p/+dHQKbRtQA"
+        }
+      ],
+      "has_online_reservation": 0,
+      "online_reservation_url": ""
+    }
+
+  ]
+}

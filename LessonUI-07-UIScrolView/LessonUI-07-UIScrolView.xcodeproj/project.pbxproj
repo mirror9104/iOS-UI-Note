@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A22C171B86C3E4000F03DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A22C161B86C3E4000F03DD /* main.m */; };
+		52A22C1A1B86C3E4000F03DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A22C191B86C3E4000F03DD /* AppDelegate.m */; };
+		52A22C1C1B86C3E4000F03DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A22C1B1B86C3E4000F03DD /* Images.xcassets */; };
+		52A22C1F1B86C3E4000F03DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A22C1D1B86C3E4000F03DD /* LaunchScreen.xib */; };
+		52A22C2B1B86C3E4000F03DD /* LessonUI_07_UIScrolViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A22C2A1B86C3E4000F03DD /* LessonUI_07_UIScrolViewTests.m */; };
+		52A22C361B86C43E000F03DD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A22C351B86C43E000F03DD /* RootViewController.m */; };
+		52A22C381B86C81E000F03DD /* 夕阳.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52A22C371B86C81E000F03DD /* 夕阳.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52A22C251B86C3E4000F03DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A22C091B86C3E4000F03DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A22C101B86C3E4000F03DD;
+			remoteInfo = "LessonUI-07-UIScrolView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52A22C111B86C3E4000F03DD /* LessonUI-07-UIScrolView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LessonUI-07-UIScrolView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A22C151B86C3E4000F03DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A22C161B86C3E4000F03DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52A22C181B86C3E4000F03DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52A22C191B86C3E4000F03DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52A22C1B1B86C3E4000F03DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52A22C1E1B86C3E4000F03DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52A22C241B86C3E4000F03DD /* LessonUI-07-UIScrolViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LessonUI-07-UIScrolViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A22C291B86C3E4000F03DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A22C2A1B86C3E4000F03DD /* LessonUI_07_UIScrolViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonUI_07_UIScrolViewTests.m; sourceTree = "<group>"; };
+		52A22C341B86C43E000F03DD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		52A22C351B86C43E000F03DD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		52A22C371B86C81E000F03DD /* 夕阳.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "夕阳.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A22C0E1B86C3E4000F03DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A22C211B86C3E4000F03DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A22C081B86C3E4000F03DD = {
+			isa = PBXGroup;
+			children = (
+				52A22C131B86C3E4000F03DD /* LessonUI-07-UIScrolView */,
+				52A22C271B86C3E4000F03DD /* LessonUI-07-UIScrolViewTests */,
+				52A22C121B86C3E4000F03DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A22C121B86C3E4000F03DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A22C111B86C3E4000F03DD /* LessonUI-07-UIScrolView.app */,
+				52A22C241B86C3E4000F03DD /* LessonUI-07-UIScrolViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A22C131B86C3E4000F03DD /* LessonUI-07-UIScrolView */ = {
+			isa = PBXGroup;
+			children = (
+				52A22C181B86C3E4000F03DD /* AppDelegate.h */,
+				52A22C191B86C3E4000F03DD /* AppDelegate.m */,
+				52A22C371B86C81E000F03DD /* 夕阳.jpg */,
+				52A22C341B86C43E000F03DD /* RootViewController.h */,
+				52A22C351B86C43E000F03DD /* RootViewController.m */,
+				52A22C1B1B86C3E4000F03DD /* Images.xcassets */,
+				52A22C1D1B86C3E4000F03DD /* LaunchScreen.xib */,
+				52A22C141B86C3E4000F03DD /* Supporting Files */,
+			);
+			path = "LessonUI-07-UIScrolView";
+			sourceTree = "<group>";
+		};
+		52A22C141B86C3E4000F03DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52A22C151B86C3E4000F03DD /* Info.plist */,
+				52A22C161B86C3E4000F03DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52A22C271B86C3E4000F03DD /* LessonUI-07-UIScrolViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				52A22C2A1B86C3E4000F03DD /* LessonUI_07_UIScrolViewTests.m */,
+				52A22C281B86C3E4000F03DD /* Supporting Files */,
+			);
+			path = "LessonUI-07-UIScrolViewTests";
+			sourceTree = "<group>";
+		};
+		52A22C281B86C3E4000F03DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52A22C291B86C3E4000F03DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A22C101B86C3E4000F03DD /* LessonUI-07-UIScrolView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A22C2E1B86C3E4000F03DD /* Build configuration list for PBXNativeTarget "LessonUI-07-UIScrolView" */;
+			buildPhases = (
+				52A22C0D1B86C3E4000F03DD /* Sources */,
+				52A22C0E1B86C3E4000F03DD /* Frameworks */,
+				52A22C0F1B86C3E4000F03DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LessonUI-07-UIScrolView";
+			productName = "LessonUI-07-UIScrolView";
+			productReference = 52A22C111B86C3E4000F03DD /* LessonUI-07-UIScrolView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52A22C231B86C3E4000F03DD /* LessonUI-07-UIScrolViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A22C311B86C3E4000F03DD /* Build configuration list for PBXNativeTarget "LessonUI-07-UIScrolViewTests" */;
+			buildPhases = (
+				52A22C201B86C3E4000F03DD /* Sources */,
+				52A22C211B86C3E4000F03DD /* Frameworks */,
+				52A22C221B86C3E4000F03DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A22C261B86C3E4000F03DD /* PBXTargetDependency */,
+			);
+			name = "LessonUI-07-UIScrolViewTests";
+			productName = "LessonUI-07-UIScrolViewTests";
+			productReference = 52A22C241B86C3E4000F03DD /* LessonUI-07-UIScrolViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A22C091B86C3E4000F03DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Lafree;
+				TargetAttributes = {
+					52A22C101B86C3E4000F03DD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					52A22C231B86C3E4000F03DD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52A22C101B86C3E4000F03DD;
+					};
+				};
+			};
+			buildConfigurationList = 52A22C0C1B86C3E4000F03DD /* Build configuration list for PBXProject "LessonUI-07-UIScrolView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A22C081B86C3E4000F03DD;
+			productRefGroup = 52A22C121B86C3E4000F03DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A22C101B86C3E4000F03DD /* LessonUI-07-UIScrolView */,
+				52A22C231B86C3E4000F03DD /* LessonUI-07-UIScrolViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A22C0F1B86C3E4000F03DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A22C1F1B86C3E4000F03DD /* LaunchScreen.xib in Resources */,
+				52A22C1C1B86C3E4000F03DD /* Images.xcassets in Resources */,
+				52A22C381B86C81E000F03DD /* 夕阳.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A22C221B86C3E4000F03DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A22C0D1B86C3E4000F03DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A22C1A1B86C3E4000F03DD /* AppDelegate.m in Sources */,
+				52A22C171B86C3E4000F03DD /* main.m in Sources */,
+				52A22C361B86C43E000F03DD /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A22C201B86C3E4000F03DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A22C2B1B86C3E4000F03DD /* LessonUI_07_UIScrolViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A22C261B86C3E4000F03DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A22C101B86C3E4000F03DD /* LessonUI-07-UIScrolView */;
+			targetProxy = 52A22C251B86C3E4000F03DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52A22C1D1B86C3E4000F03DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A22C1E1B86C3E4000F03DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52A22C2C1B86C3E4000F03DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52A22C2D1B86C3E4000F03DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A22C2F1B86C3E4000F03DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "LessonUI-07-UIScrolView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52A22C301B86C3E4000F03DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "LessonUI-07-UIScrolView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52A22C321B86C3E4000F03DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-07-UIScrolViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-07-UIScrolView.app/LessonUI-07-UIScrolView";
+			};
+			name = Debug;
+		};
+		52A22C331B86C3E4000F03DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-07-UIScrolViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-07-UIScrolView.app/LessonUI-07-UIScrolView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A22C0C1B86C3E4000F03DD /* Build configuration list for PBXProject "LessonUI-07-UIScrolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A22C2C1B86C3E4000F03DD /* Debug */,
+				52A22C2D1B86C3E4000F03DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A22C2E1B86C3E4000F03DD /* Build configuration list for PBXNativeTarget "LessonUI-07-UIScrolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A22C2F1B86C3E4000F03DD /* Debug */,
+				52A22C301B86C3E4000F03DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A22C311B86C3E4000F03DD /* Build configuration list for PBXNativeTarget "LessonUI-07-UIScrolViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A22C321B86C3E4000F03DD /* Debug */,
+				52A22C331B86C3E4000F03DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A22C091B86C3E4000F03DD /* Project object */;
+}

@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52E8931B1B8B1763001826AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8931A1B8B1763001826AF /* main.m */; };
+		52E8931E1B8B1763001826AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8931D1B8B1763001826AF /* AppDelegate.m */; };
+		52E893201B8B1763001826AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E8931F1B8B1763001826AF /* Images.xcassets */; };
+		52E893231B8B1763001826AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52E893211B8B1763001826AF /* LaunchScreen.xib */; };
+		52E8932F1B8B1763001826AF /* LessonUI_08_PassValue_Navigation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8932E1B8B1763001826AF /* LessonUI_08_PassValue_Navigation_Tests.m */; };
+		52E8933A1B8B1789001826AF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E893391B8B1789001826AF /* FirstViewController.m */; };
+		52E8933D1B8B17A1001826AF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E8933C1B8B17A1001826AF /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E893291B8B1763001826AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E8930D1B8B1763001826AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E893141B8B1763001826AF;
+			remoteInfo = "LessonUI-08-PassValue(Navigation)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52E893151B8B1763001826AF /* LessonUI-08-PassValue(Navigation).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LessonUI-08-PassValue(Navigation).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E893191B8B1763001826AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E8931A1B8B1763001826AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52E8931C1B8B1763001826AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52E8931D1B8B1763001826AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52E8931F1B8B1763001826AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52E893221B8B1763001826AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52E893281B8B1763001826AF /* LessonUI-08-PassValue(Navigation)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LessonUI-08-PassValue(Navigation)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E8932D1B8B1763001826AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E8932E1B8B1763001826AF /* LessonUI_08_PassValue_Navigation_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonUI_08_PassValue_Navigation_Tests.m; sourceTree = "<group>"; };
+		52E893381B8B1789001826AF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		52E893391B8B1789001826AF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		52E8933B1B8B17A1001826AF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		52E8933C1B8B17A1001826AF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E893121B8B1763001826AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E893251B8B1763001826AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E8930C1B8B1763001826AF = {
+			isa = PBXGroup;
+			children = (
+				52E893171B8B1763001826AF /* LessonUI-08-PassValue(Navigation) */,
+				52E8932B1B8B1763001826AF /* LessonUI-08-PassValue(Navigation)Tests */,
+				52E893161B8B1763001826AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E893161B8B1763001826AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E893151B8B1763001826AF /* LessonUI-08-PassValue(Navigation).app */,
+				52E893281B8B1763001826AF /* LessonUI-08-PassValue(Navigation)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E893171B8B1763001826AF /* LessonUI-08-PassValue(Navigation) */ = {
+			isa = PBXGroup;
+			children = (
+				52E8931C1B8B1763001826AF /* AppDelegate.h */,
+				52E8931D1B8B1763001826AF /* AppDelegate.m */,
+				52E893381B8B1789001826AF /* FirstViewController.h */,
+				52E893391B8B1789001826AF /* FirstViewController.m */,
+				52E8933B1B8B17A1001826AF /* SecondViewController.h */,
+				52E8933C1B8B17A1001826AF /* SecondViewController.m */,
+				52E8931F1B8B1763001826AF /* Images.xcassets */,
+				52E893211B8B1763001826AF /* LaunchScreen.xib */,
+				52E893181B8B1763001826AF /* Supporting Files */,
+			);
+			path = "LessonUI-08-PassValue(Navigation)";
+			sourceTree = "<group>";
+		};
+		52E893181B8B1763001826AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52E893191B8B1763001826AF /* Info.plist */,
+				52E8931A1B8B1763001826AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52E8932B1B8B1763001826AF /* LessonUI-08-PassValue(Navigation)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52E8932E1B8B1763001826AF /* LessonUI_08_PassValue_Navigation_Tests.m */,
+				52E8932C1B8B1763001826AF /* Supporting Files */,
+			);
+			path = "LessonUI-08-PassValue(Navigation)Tests";
+			sourceTree = "<group>";
+		};
+		52E8932C1B8B1763001826AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52E8932D1B8B1763001826AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E893141B8B1763001826AF /* LessonUI-08-PassValue(Navigation) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E893321B8B1763001826AF /* Build configuration list for PBXNativeTarget "LessonUI-08-PassValue(Navigation)" */;
+			buildPhases = (
+				52E893111B8B1763001826AF /* Sources */,
+				52E893121B8B1763001826AF /* Frameworks */,
+				52E893131B8B1763001826AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LessonUI-08-PassValue(Navigation)";
+			productName = "LessonUI-08-PassValue(Navigation)";
+			productReference = 52E893151B8B1763001826AF /* LessonUI-08-PassValue(Navigation).app */;
+			productType = "com.apple.product-type.application";
+		};
+		52E893271B8B1763001826AF /* LessonUI-08-PassValue(Navigation)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E893351B8B1763001826AF /* Build configuration list for PBXNativeTarget "LessonUI-08-PassValue(Navigation)Tests" */;
+			buildPhases = (
+				52E893241B8B1763001826AF /* Sources */,
+				52E893251B8B1763001826AF /* Frameworks */,
+				52E893261B8B1763001826AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E8932A1B8B1763001826AF /* PBXTargetDependency */,
+			);
+			name = "LessonUI-08-PassValue(Navigation)Tests";
+			productName = "LessonUI-08-PassValue(Navigation)Tests";
+			productReference = 52E893281B8B1763001826AF /* LessonUI-08-PassValue(Navigation)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E8930D1B8B1763001826AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Lafree;
+				TargetAttributes = {
+					52E893141B8B1763001826AF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					52E893271B8B1763001826AF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52E893141B8B1763001826AF;
+					};
+				};
+			};
+			buildConfigurationList = 52E893101B8B1763001826AF /* Build configuration list for PBXProject "LessonUI-08-PassValue(Navigation)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E8930C1B8B1763001826AF;
+			productRefGroup = 52E893161B8B1763001826AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E893141B8B1763001826AF /* LessonUI-08-PassValue(Navigation) */,
+				52E893271B8B1763001826AF /* LessonUI-08-PassValue(Navigation)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E893131B8B1763001826AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E893231B8B1763001826AF /* LaunchScreen.xib in Resources */,
+				52E893201B8B1763001826AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E893261B8B1763001826AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E893111B8B1763001826AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E8933D1B8B17A1001826AF /* SecondViewController.m in Sources */,
+				52E8931E1B8B1763001826AF /* AppDelegate.m in Sources */,
+				52E8933A1B8B1789001826AF /* FirstViewController.m in Sources */,
+				52E8931B1B8B1763001826AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E893241B8B1763001826AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E8932F1B8B1763001826AF /* LessonUI_08_PassValue_Navigation_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E8932A1B8B1763001826AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E893141B8B1763001826AF /* LessonUI-08-PassValue(Navigation) */;
+			targetProxy = 52E893291B8B1763001826AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52E893211B8B1763001826AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E893221B8B1763001826AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52E893301B8B1763001826AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52E893311B8B1763001826AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E893331B8B1763001826AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "LessonUI-08-PassValue(Navigation)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52E893341B8B1763001826AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "LessonUI-08-PassValue(Navigation)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52E893361B8B1763001826AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-08-PassValue(Navigation)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-08-PassValue(Navigation).app/LessonUI-08-PassValue(Navigation)";
+			};
+			name = Debug;
+		};
+		52E893371B8B1763001826AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-08-PassValue(Navigation)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-08-PassValue(Navigation).app/LessonUI-08-PassValue(Navigation)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E893101B8B1763001826AF /* Build configuration list for PBXProject "LessonUI-08-PassValue(Navigation)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E893301B8B1763001826AF /* Debug */,
+				52E893311B8B1763001826AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E893321B8B1763001826AF /* Build configuration list for PBXNativeTarget "LessonUI-08-PassValue(Navigation)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E893331B8B1763001826AF /* Debug */,
+				52E893341B8B1763001826AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E893351B8B1763001826AF /* Build configuration list for PBXNativeTarget "LessonUI-08-PassValue(Navigation)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E893361B8B1763001826AF /* Debug */,
+				52E893371B8B1763001826AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52E8930D1B8B1763001826AF /* Project object */;
+}

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="puv-sk-uOW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--复杂对象-->
+        <scene sceneID="v8i-xi-Y0s">
+            <objects>
+                <viewController id="eL6-GS-IKB" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VFr-i2-Vb0"/>
+                        <viewControllerLayoutGuide type="bottom" id="6EM-dj-Hx3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsQ-pm-frH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uLV-Dp-aWn">
+                                <rect key="frame" x="138" y="121" width="167" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lzy-Yn-u90">
+                                <rect key="frame" x="138" y="189" width="167" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R1V-go-16x">
+                                <rect key="frame" x="138" y="261" width="167" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="姓名:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHP-Bg-UMa">
+                                <rect key="frame" x="70" y="125" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="性别:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jY5-kY-H5h">
+                                <rect key="frame" x="70" y="193" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="年龄:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQc-ad-KT7">
+                                <rect key="frame" x="70" y="265" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jzp-dp-PvZ">
+                                <rect key="frame" x="72" y="366" width="30" height="30"/>
+                                <state key="normal" title="归档">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="archiveAction:" destination="eL6-GS-IKB" eventType="touchUpInside" id="zIc-b3-Ln7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdc-3o-SSZ">
+                                <rect key="frame" x="257" y="366" width="45" height="30"/>
+                                <state key="normal" title="反归档">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="unArchiveAction:" destination="eL6-GS-IKB" eventType="touchUpInside" id="Eso-xH-Km6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="复杂对象" id="TBN-hV-F8r"/>
+                    <connections>
+                        <outlet property="ageTF" destination="R1V-go-16x" id="4ys-0A-HgE"/>
+                        <outlet property="nameTF" destination="uLV-Dp-aWn" id="5fj-bM-vih"/>
+                        <outlet property="sexTF" destination="lzy-Yn-u90" id="NZJ-i3-R4g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U8b-Xq-Lze" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-109.5" y="1343.5"/>
+        </scene>
+        <!--简单对象-->
+        <scene sceneID="FmQ-wM-Q7s">
+            <objects>
+                <viewController id="2cw-fc-ve8" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1ee-Je-eda"/>
+                        <viewControllerLayoutGuide type="bottom" id="VXT-iz-0Zf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DiL-Gc-4cK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ikp-Fs-cw4">
+                                <rect key="frame" x="47" y="169" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nEs-LR-hpN">
+                                <rect key="frame" x="47" y="244" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aw2-l8-nsF">
+                                <rect key="frame" x="96" y="306" width="30" height="30"/>
+                                <state key="normal" title="写入">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="writeAction:" destination="2cw-fc-ve8" eventType="touchUpInside" id="65F-6S-fdN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPh-yE-cQM">
+                                <rect key="frame" x="248" y="306" width="30" height="30"/>
+                                <state key="normal" title="读取">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="readAction:" destination="2cw-fc-ve8" eventType="touchUpInside" id="njw-sQ-7Xc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ojb-Pb-KFv">
+                                <rect key="frame" x="96" y="396" width="30" height="30"/>
+                                <state key="normal" title="创建">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="creatAction:" destination="2cw-fc-ve8" eventType="touchUpInside" id="hVI-m7-X4b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sks-nZ-99Z">
+                                <rect key="frame" x="248" y="396" width="30" height="30"/>
+                                <state key="normal" title="移动">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveAction:" destination="2cw-fc-ve8" eventType="touchUpInside" id="6s3-RL-7MZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgS-I4-Mj8">
+                                <rect key="frame" x="96" y="481" width="30" height="30"/>
+                                <state key="normal" title="复制">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="copyAction:" destination="2cw-fc-ve8" eventType="touchUpInside" id="xLv-wP-JSR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivM-Gl-rEQ">
+                                <rect key="frame" x="157" y="396" width="60" height="30"/>
+                                <state key="normal" title="是否存在">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="existAction:" destination="2cw-fc-ve8" eventType="touchUpInside" id="85e-Tk-VSN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2v8-Y9-ubZ">
+                                <rect key="frame" x="228" y="481" width="99" height="30"/>
+                                <state key="normal" title="删除(清楚缓存)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="removeAction:" destination="2cw-fc-ve8" eventType="touchUpInside" id="0be-J0-IRh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="简单对象" id="cyp-Sv-MPG"/>
+                    <connections>
+                        <outlet property="TF1" destination="ikp-Fs-cw4" id="65Y-zf-1ws"/>
+                        <outlet property="TF2" destination="nEs-LR-hpN" id="XQ2-zM-YX9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bZv-55-R2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-594.5" y="1343.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="vm1-Y9-xCd">
+            <objects>
+                <tabBarController id="puv-sk-uOW" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="2dY-Cs-X92">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FUe-dE-Omg" kind="relationship" relationship="viewControllers" id="3Sk-ca-bUc"/>
+                        <segue destination="x08-EB-wDX" kind="relationship" relationship="viewControllers" id="1wx-TU-8ey"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pp1-9e-y2r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-329.5" y="-271.5"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="uJH-kx-HIS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FUe-dE-Omg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="x2d-C5-5ih"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ng1-IO-TZ6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2cw-fc-ve8" kind="relationship" relationship="rootViewController" id="JJ4-Ug-77Q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RJ0-hq-3Mn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-594.5" y="554.5"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="ijU-5G-bnm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="x08-EB-wDX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 2" id="bb6-87-TPJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sRX-b2-YQa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eL6-GS-IKB" kind="relationship" relationship="rootViewController" id="o6M-Sk-bWO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JPL-6A-H2R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-109.5" y="554.5"/>
+        </scene>
+    </scenes>
+</document>

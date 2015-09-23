@@ -1,0 +1,428 @@
+{
+	A = (
+		{
+			name = "\U80e1\U6625\U6e90";
+			phoneNumber = 18610317624;
+			sex = "\U7537";
+			picName = "\U80e1\U6625\U6e90.jpg";
+			introduce = "(\U25cf\U2014\U25cf)";
+		},
+		{
+			name = "\U738b\U8d85";
+			sex = "\U5973";
+			phoneNumber = 15001238042;
+			picName = "\U738b\U8d85.jpg";
+			introduce = "\U56db\U80a2\U53d1\U8fbe,\U5934\U8111\U7b80\U5355.\U53ea\U4f1a\U5403\U548c\U7761.\U5403\U996d\U50cf\U5b69\U5b50,\U4e25\U91cd\U9700\U8981\U56f4\U4e00\U5757\U5e03;\U7761\U89c9\U59ff\U52bf\U5f88\U9738\U6c14.";
+		},
+		{
+			name = "\U987e\U5229";
+			sex = "\U5973";
+			phoneNumber = 15001239794;
+			picName = "\U987e\U5229.jpg";
+			introduce = "\U987e\U5c0f\U59d0\U662f\U4e00\U4e2a\U975e\U5e38\U8d24\U60e0\U7684\U5973\U5b50,\U4e0d\U7231\U5403\U996d,\U7279\U522b\U7231\U5e72\U6d3b,\U8d24\U59bb\U826f\U6bcd\U7684\U5178\U8303.";
+		},
+		{
+			name = "\U674e\U6625\U83f2";
+			sex = "\U7537";
+			phoneNumber = 18610906114;
+			picName = "\U674e\U6625\U83f2.jpg";
+			introduce = "duang duang duang";
+		},
+		{
+			name = "\U5b59\U6bc5";
+			sex = "\U7537";
+			phoneNumber = 18266181020;
+			picName = "\U5b59\U6bc5.jpg";
+			introduce = "\U4e00\U4e2a\U597d\U4eba";
+		},
+		{
+			name = "\U65bd\U6c38\U8f89";
+			sex = "\U7537";
+			phoneNumber = 15210219909;
+			picName = "\U65bd\U6c38\U8f89.jpg";
+			introduce = "\U6c38\U8f89\U8d85\U5e02\U77e5\U9053\U5427,\U4e0d\U662f\U4ed6\U5f00\U7684.\U4ed6\U8bf4\U4ee5\U540e\U53bb\U8d85\U5e02\U62a5\U4ed6\U5927\U540d,\U7eaf\U5c5e\U5751\U7239,\U6709\U6728\U6709.\U798f\U5efa\U7684\U8bf4\U8bdd\U8d3c\U9017,\U60f3\U8ba9\U4ed6\U8bfb\U6587\U7ae0.";
+		},
+	);
+	B = (
+		{
+			name = "\U674e\U6960";
+			sex = "\U7537";
+			phoneNumber = 17710273967;
+			picName = "\U674e\U6960.jpg";
+			introduce = "\U4e00\U4ee3\U5723\U541b";
+		},
+		{
+			name = "\U5218\U9759";
+			sex = "\U5973";
+			phoneNumber = 13522598301;
+			picName = "\U5218\U9759.jpg";
+			introduce = "\U4e00\U4e2a\U4e8b\U591a\U7684\U6b7b\U80d6\U5b50";
+		},
+		{
+			name = "\U6c5f\U6668";
+			sex = "\U7537";
+			phoneNumber = 18516995030;
+			picName = "\U6c5f\U6668.jpg";
+			introduce = "\U5e05!!!!!!!!                         \U5475\U5475\U54d2";
+		},
+		{
+			name = "\U5b59\U9ad8\U6770";
+			sex = "\U7537";
+			phoneNumber = 17701056939;
+			picName = "\U5b59\U9ad8\U6770.jpg";
+			introduce = "\U4e00\U4e2a\U597d\U4eba!";
+		},
+		{
+			name = "\U5f20\U8389";
+			sex = "\U5973";
+			phoneNumber = 15837665271;
+			picName = "\U5f20\U8389.jpg";
+			introduce = "\U4e00\U4e2a\U6709\U5185\U6db5\U7684\U4eba!";
+		},
+		{
+			name = "\U5f20\U7f61\U96f7";
+			sex = "\U7537";
+			phoneNumber = 13573465323;
+			picName = "\U5f20\U7f61\U96f7.jpg";
+			introduce = "\U5e05\U54e5\U7684\U540c\U684c";
+		},
+	);
+	C = (
+		{
+			name = "\U674e\U5efa\U884c";
+			sex = "\U7537";
+			phoneNumber = 18611909520;
+			picName = "\U674e\U5efa\U884c.jpg";
+			introduce = "\U8bf4\U70b9\U513f\U4ec0\U4e48\U597d...\U8ba9\U6211\U60f3\U60f3...";
+		},
+		{
+			picName = "\U5b8b\U79cb\U5747.jpg";
+			name = "\U5b8b\U79cb\U5747";
+			sex = "\U7537";
+			phoneNumber = 18611909620;
+			introduce = "\U732a\U3002";
+		},
+		{
+			name = "\U590f\U6c5d\U9707";
+			sex = "\U7537";
+			phoneNumber = 13501120689;
+			picName = "\U590f\U6c5d\U9707.jpg";
+			introduce = 23333333;
+		},
+		{
+			name = "\U5f20\U6d9b";
+			sex = "\U7537";
+			phoneNumber = 13720269552;
+			picName = "\U5f20\U6d9b.jpg";
+			introduce = "\U4e00\U8def\U8d70\U6765,\U8de8\U8fc7\U5c71,\U8d8a\U8fc7\U6d77..";
+		},
+	);
+	D = (
+		{
+			name = "\U72c4\U535a\U8d85";
+			sex = "\U7537";
+			phoneNumber = 13683582485;
+			picName = "\U72c4\U535a\U8d85.jpg";
+			introduce = "\U6d6e\U751f\U82e5\U68a6";
+		},
+		{
+			name = "\U59da\U7acb\U519b";
+			sex = "\U7537";
+			phoneNumber = 18161695395;
+			picName = "\U59da\U7acb\U519b.jpg";
+			introduce = "\U542c\U515a\U7684\U8bdd  \U505a\U515a\U7684\U597d\U5a03\U5a03";
+		},
+		{
+			name = "\U8521\U732e\U654f";
+			sex = "\U5973";
+			phoneNumber = 18518634720;
+			picName = "\U8521\U732e\U654f.jpg";
+			introduce = "If you cannot do great things, do small things in a great way.";
+		},
+		{
+			name = "\U9a6c\U5fd7\U5a01";
+			sex = "\U7537";
+			phoneNumber = 15097442574;
+			picName = "\U9a6c\U5fd7\U5a01.jpg";
+			introduce = "\U543e\U4e4b\U5fc3,\U5929\U9a6c\U884c\U7a7a.";
+		},
+		{
+			name = "\U5b8b\U9759";
+			sex = "\U7537";
+			phoneNumber = 18697585727;
+			picName = "\U5b8b\U9759.jpg";
+			introduce = "\U4e00\U4e2a\U597d\U4eba  \U7231\U5b66\U4e60 \U7231\U751f\U6d3b";
+		},
+		{
+			name = "\U4e8e\U6f58\U6d0b";
+			sex = "\U7537";
+			phoneNumber = 15275709076;
+			picName = "\U4e8e\U6f58\U6d0b.jpg";
+			introduce = "\U7231\U5b66\U4e60  \U7231\U751f\U6d3b";
+		},
+	);
+	E = (
+		{
+			name = "\U9648\U9e4f\U4e3e";
+			sex = "\U7537";
+			phoneNumber = 18865746263;
+			picName = "\U9648\U9e4f\U4e3e.jpg";
+			introduce = "\U53ea\U662f\U6709\U70b9\U9ed1\U7684\U90e8\U843d\U9996\U9886\U800c\U5df2...";
+		},
+		{
+			name = "\U5b81\U552f";
+			sex = "\U7537";
+			phoneNumber = 18201233220;
+			picName = "\U5b81\U552f.jpg";
+			introduce = "\U5e05\U5e05\U5e05\U5e05\U5e05\U5e05\U5e05...";
+		},
+		{
+			name = "\U674e\U8273\U534e";
+			sex = "\U5973";
+			phoneNumber = 15235934906;
+			picName = "\U674e\U8273\U534e.jpg";
+			introduce = "\U8138\U592a\U5c0f\U4e86,\U8138\U592a\U5c0f\U4e86! ! !";
+		},
+		{
+			name = "\U4f0a\U79c0\U5229";
+			sex = "\U5973";
+			phoneNumber = 18518634727;
+			picName = "\U4f0a\U79c0\U5229.jpg";
+			introduce = "\U505a\U4e2a\U5b89\U9759\U7684\U7f8e\U5973\U5b50~~~";
+		},
+		{
+			name = "\U5e84\U5a9b";
+			sex = "\U5973";
+			phoneNumber = 18518634755;
+			picName = "\U5e84\U5a9b.jpg";
+			introduce = "\U5404\U79cd\U72af\U50bb....";
+		},
+		{
+			name = "\U4f5f\U9521\U6770";
+			sex = "\U7537";
+			phoneNumber = 18686840243;
+			picName = "\U4f5f\U9521\U6770.jpg";
+			introduce = "\U559c\U6b22\U5b89\U9759,\U559c\U6b22\U73a9\U6e38\U620f";
+		},
+	);
+	F = (
+		{
+			name = "\U9648\U7389\U4eae";
+			sex = "\U7537";
+			phoneNumber = 18736165317;
+			picName = "\U9648\U7389\U4eae.jpg";
+			introduce = "\U4e0a\U8bfe\U7761\U89c9\U4e13\U4e1a\U6237";
+		},
+		{
+			name = "\U5218\U6654\U7426";
+			sex = "\U5973";
+			phoneNumber = 13516882554;
+			picName = "\U5218\U6654\U7426.jpg";
+			introduce = "\U98ce\U6d41\U501c\U50a5,\U7389\U6811\U51cc\U98ce,\U624d\U9ad8\U516b\U6597,\U5b66\U5bcc\U4e94\U8f66";
+		},
+		{
+			name = "\U8d75\U5c0f\U78ca";
+			sex = "\U5973";
+			phoneNumber = 15001237424;
+			picName = "\U8d75\U5c0f\U78ca.jpg";
+			introduce = "\U5c0f\U78ca\U5f88\U7406\U667a,\U5e76\U4e14\U662f\U4e00\U4e2a\U806a\U660e\U4e0e\U667a\U6167\U5e76\U5b58\U7684\U5973\U5b69\U5b50,\U8ddf\U5979\U5750\U540c\U684c\U4ee4\U4eba\U5f88\U6109\U5feb.";
+		},
+		{
+			name = "\U6821\U4ed8\U82f9";
+			sex = "\U5973";
+			phoneNumber = 15738772124;
+			picName = "\U6821\U4ed8\U82f9.jpg";
+			introduce = "\U5c0f\U840d\U840d\U662f\U4e00\U4e2a\U5f88\U51b7\U5e7d\U9ed8\U7684\U4eba";
+		},
+		{
+			name = "\U4f4d\U4e39\U4e39";
+			sex = "\U5973";
+			phoneNumber = 18224529322;
+			picName = "\U4f4d\U4e39\U4e39.jpg";
+			introduce = "\U806a\U660e,\U7f8e\U4e3d,\U523b\U82e6\U8ba4\U771f!!!";
+		},
+		{
+			name = "\U6c6a\U78ca";
+			sex = "\U7537";
+			phoneNumber = 18612530361;
+			picName = "\U6c6a\U78ca.jpg";
+			introduce = "I just say what you want  say!!!!";
+		},
+	);
+	G = (
+		{
+			name = "\U8c22\U57f9";
+			sex = "\U7537";
+			phoneNumber = 13718847343;
+			picName = "\U8c22\U57f9.jpg";
+			introduce = "happiness in sorrow";
+		},
+		{
+			name = "\U6768\U6d0b\U6d0b";
+			sex = "\U7537";
+			phoneNumber = 15839997454;
+			picName = "\U6768\U6d0b\U6d0b.jpg";
+			introduce = "\U4e16\U754c\U4e0a\U6ca1\U6709\U4e00\U6761\U5f2f\U8def\U662f\U767d\U8d70\U7684\U3002";
+		},
+		{
+			name = "\U90dd\U9e4f\U8fbe";
+			sex = "\U7537";
+			phoneNumber = 18511288144;
+			picName = "\U90dd\U9e4f\U8fbe.jpg";
+			introduce = "\U6211\U4e3a\U795e\U4ee3\U8a00";
+		},
+		{
+			name = "\U65f6\U94c1\U5e84";
+			sex = "\U7537";
+			phoneNumber = 13938505326;
+			picName = "\U65f6\U94c1\U5e84.jpg";
+			introduce = "\U6709\U7740\U6587\U4eba\U5112\U96c5\U7684\U98ce\U5ea6\Uff0c\U5185\U5fc3\U5145\U6ee1\U5bf9\U5916\U754c\U7684\U597d\U5947";
+		},
+		{
+			name = "\U8c22\U5065";
+			sex = "\U7537";
+			phoneNumber = 18518556610;
+			picName = "\U8c22\U5065.jpg";
+			introduce = "\U82f1\U4fca\U6f47\U6d12,\U7389\U6811\U51cc\U98ce,\U4eba\U89c1\U4eba\U7231\U82b1\U89c1\U82b1\U5f00";
+		},
+		{
+			name = "\U90ed\U660e\U65fa";
+			sex = "\U7537";
+			phoneNumber = 15565706162;
+			picName = "\U90ed\U660e\U65fa.jpg";
+			introduce = "\U601d\U60f3\U65b0\U6f6e,\U5bcc\U6709\U6d3b\U529b";
+		},
+	);
+	H = (
+		{
+			name = "\U5b50\U8d85";
+			sex = "\U7537";
+			phoneNumber = 15011078456;
+			picName = "\U9a6c\U5b50\U8d85.jpg";
+			introduce = "\U4ed6\U8bf4\U4ed6\U5f88\U5e05,\U4f60\U4eec\U600e\U4e48\U770b?";
+		},
+		{
+			name = "\U674e\U5411\U8363";
+			sex = "\U7537";
+			phoneNumber = 13465897272;
+			picName = "\U674e\U5411\U8363.jpg";
+			introduce = "\U4ed6\U4e5f\U662f\U4e2a\U5b69\U5b50..";
+		},
+		{
+			name = "\U767d\U854a";
+			sex = "\U5973";
+			phoneNumber = 15832516936;
+			picName = "\U767d\U854a.jpg";
+			introduce = "\U4e00\U4e2a\U6d3b\U6cfc\U7684\U5c0f\U4e0d\U70b9.";
+		},
+		{
+			name = "\U674e\U7b03\U5174";
+			sex = "\U7537";
+			phoneNumber = 18260026371;
+			picName = "\U674e\U7b03\U5174.jpg";
+			introduce = "\U6069,\U5927\U53d4\U4e86";
+		},
+		{
+			name = "\U5f20\U96c5\U946b";
+			sex = "\U7537";
+			phoneNumber = 15963394364;
+			picName = "\U5f20\U96c5\U946b.jpg";
+			introduce = "\U5f20\U96c5\U946b,\U4e0d\U4f18\U96c5.";
+		},
+		{
+			name = "\U738b\U741b";
+			sex = "\U7537";
+			phoneNumber = 18655319989;
+			picName = "\U738b\U741b.jpg";
+			introduce = "\U770b\U8d77\U6765\U61c2\U7684\U633a\U591a\U7684.";
+		},
+	);
+	I = (
+		{
+			name = "\U675c\U65b0\U5143";
+			sex = "\U7537";
+			phoneNumber = 18354261086;
+			picName = "\U675c\U65b0\U5143.jpg";
+			introduce = "\U5fe0\U5b9e\U8bda\U4fe1,\U8bb2\U539f\U5219\Uff0c\U8bf4\U5230\U505a\U5230\Uff0c\U51b3\U4e0d\U63a8\U5378\U8d23\U4efb\Uff1b\U6709\U81ea\U5236\U529b\Uff0c\U505a\U4e8b\U60c5\U59cb\U7ec8\U575a\U6301\U6709\U59cb\U6709\U7ec8\Uff0c\U4ece\U4e0d\U534a\U9014\U800c\U5e9f\Uff1b\U80af\U5b66\U4e60,\U6709\U95ee\U9898\U4e0d\U9003\U907f,\U613f\U610f\U865a\U5fc3\U5411\U4ed6\U4eba\U5b66\U4e60\Uff1b\U81ea\U4fe1\U4f46\U4e0d\U81ea\U8d1f,\U4e0d\U4ee5\U81ea\U6211\U4e3a\U4e2d\U5fc3\Uff1b\U613f\U610f\U4ee5\U8c26\U865a\U6001\U5ea6\U8d5e\U626c\U63a5\U7eb3\U4f18\U8d8a\U8005,\U6743\U5a01\U8005\Uff1b\U4f1a\U7528100%\U7684\U70ed\U60c5\U548c\U7cbe\U529b\U6295\U5165\U5230\U5de5\U4f5c\U4e2d\Uff1b\U5e73\U6613\U8fd1\U4eba\U3002\U4e3a\U4eba\U8bda\U6073,\U6027\U683c\U5f00\U6717,\U79ef\U6781\U8fdb\U53d6,\U9002\U5e94\U529b\U5f3a\U3001\U52e4\U594b\U597d\U5b66\U3001\U811a\U8e0f\U5b9e\U5730\Uff0c\U6709\U8f83\U5f3a\U7684\U56e2\U961f\U7cbe\U795e,\U5de5\U4f5c\U79ef\U6781\U8fdb\U53d6,\U6001\U5ea6\U8ba4\U771f\U3002";
+		},
+		{
+			name = "\U9648\U661f\U65fa";
+			sex = "\U7537";
+			phoneNumber = 18354226202;
+			picName = "\U9648\U661f\U65fa.jpg";
+			introduce = "\U5fb7\U739b\U897f\U4e9a!!!!!";
+		},
+		{
+			name = "\U767d\U76ca\U9a8f";
+			sex = "\U7537";
+			phoneNumber = 18789477798;
+			picName = "\U767d\U76ca\U9a8f.jpg";
+			introduce = "\U5927\U5bb6\U8981\U597d\U597d\U5b66\U4e60.";
+		},
+		{
+			name = "\U5f20\U5f00\U5b87";
+			sex = "\U7537";
+			phoneNumber = 15231385991;
+			picName = "\U5f20\U5f00\U5b87.jpg";
+			introduce = "\U6709\U70b9\U61d2.....\U8fd8\U4e0d\U9519";
+		},
+		{
+			name = "\U674e\U4e07\U8fbe";
+			sex = "\U7537";
+			phoneNumber = 18315812790;
+			picName = "\U674e\U4e07\U8fbe.jpg";
+			introduce = "\U6ca1\U6709\U7f3a\U70b9\U7684\U6211,\U81ea\U5df1\U90fd\U5bb3\U6015!!!";
+		},
+		{
+			name = "\U674e\U8363\U5efa";
+			sex = "\U7537";
+			phoneNumber = 15011004033;
+			picName = "\U674e\U8363\U5efa.jpg";
+			introduce = "\U6ca1\U6709\U4f18\U70b9,\U6211\U81ea\U5df1\U90fd\U5bb3\U6015";
+		},
+	);
+	J = (
+		{
+			name = "\U5415\U7389\U6960";
+			sex = "\U5973";
+			phoneNumber = 13718707949;
+			picName = "\U5415\U7389\U6960.jpg";
+			introduce = "\U813e\U6c14\U597d";
+		},
+		{
+			name = "\U4e01\U5ca9\U677e";
+			sex = "\U7537";
+			phoneNumber = 13561215853;
+			introduce = "\U9ad8\U5bcc\U5e05,\U813e\U6c14\U597d";
+			picName = "\U4e01\U5ca9\U677e.jpg";
+		},
+		{
+			name = "\U738b\U65b0\U56fd";
+			sex = "\U7537";
+			phoneNumber = 18810678890;
+			introduce = "66666666\U5c4c\U5c4c\U5c4c\U5c4c\U5c4c\U5c4c\U5c4c";
+			picName = "\U738b\U65b0\U56fd.jpg";
+		},
+		{
+			name = "\U5434\U9814";
+			sex = "\U7537";
+			phoneNumber = 18730273050;
+			introduce = "\U8e0f\U5b9e\U80af\U5e72.\U5403\U82e6\U8010\U52b3.\U777f\U667a";
+			picName = "\U5434\U9814.jpg";
+		},
+		{
+			name = "\U9ec4\U7389\U708e";
+			sex = "\U7537";
+			phoneNumber = 15110277163;
+			picName = "\U9ec4\U7389\U708e.jpg";
+			introduce = "\U7a33\U91cd \U6210\U719f \U8ba4\U771f \U6e29\U67d4 \U5584\U89e3\U4eba\U610f\U3002\U3002\U3002 \U4f18\U79c0\Uff0c\U806a\U660e";
+		},
+		{
+			name = "\U949f\U52c3";
+			sex = "\U7537";
+			phoneNumber = 13484677661;
+			picName = "\U949f\U52c3.jpg";
+			introduce = "\U4ed6\U53ea\U60f3\U5b89\U5b89\U9759\U9759\U7684\U5f53\U4e00\U4e2a\U6696\U5927\U53d4,\U55ef...\U5176\U5b9e,\U4ed6\U662f\U60f3\U70ed\U70ed\U95f9\U95f9\U5f53\U4e00\U4e2a\U6696\U5927\U53d4!";
+		},
+	);
+}

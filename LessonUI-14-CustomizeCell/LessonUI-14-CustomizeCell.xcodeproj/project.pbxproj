@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52EC8B3F1B9446EE00896BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC8B3E1B9446EE00896BAA /* main.m */; };
+		52EC8B421B9446EE00896BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC8B411B9446EE00896BAA /* AppDelegate.m */; };
+		52EC8B441B9446EE00896BAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B431B9446EE00896BAA /* Images.xcassets */; };
+		52EC8B471B9446EE00896BAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B451B9446EE00896BAA /* LaunchScreen.xib */; };
+		52EC8B531B9446EE00896BAA /* LessonUI_14_CustomizeCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC8B521B9446EE00896BAA /* LessonUI_14_CustomizeCellTests.m */; };
+		52EC8B5E1B94478200896BAA /* ContactListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC8B5D1B94478200896BAA /* ContactListTVC.m */; };
+		52EC8BA01B94481500896BAA /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC8B611B94481500896BAA /* Contact.m */; };
+		52EC8BA11B94481500896BAA /* Contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B621B94481500896BAA /* Contacts.plist */; };
+		52EC8BA21B94481500896BAA /* DataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC8B641B94481500896BAA /* DataHandle.m */; };
+		52EC8BA31B94481500896BAA /* 丁岩松.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B661B94481500896BAA /* 丁岩松.jpg */; };
+		52EC8BA41B94481500896BAA /* 于潘洋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B671B94481500896BAA /* 于潘洋.jpg */; };
+		52EC8BA51B94481500896BAA /* 伊秀利.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B681B94481500896BAA /* 伊秀利.jpg */; };
+		52EC8BA61B94481500896BAA /* 位丹丹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B691B94481500896BAA /* 位丹丹.jpg */; };
+		52EC8BA71B94481500896BAA /* 佟锡杰.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B6A1B94481500896BAA /* 佟锡杰.jpg */; };
+		52EC8BA81B94481500896BAA /* 刘晔琦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B6B1B94481500896BAA /* 刘晔琦.jpg */; };
+		52EC8BA91B94481500896BAA /* 刘静.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B6C1B94481500896BAA /* 刘静.jpg */; };
+		52EC8BAA1B94481500896BAA /* 吕玉楠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B6D1B94481500896BAA /* 吕玉楠.jpg */; };
+		52EC8BAB1B94481500896BAA /* 吴頔.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B6E1B94481500896BAA /* 吴頔.jpg */; };
+		52EC8BAC1B94481500896BAA /* 夏汝震.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B6F1B94481500896BAA /* 夏汝震.jpg */; };
+		52EC8BAD1B94481500896BAA /* 姚立军.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B701B94481500896BAA /* 姚立军.jpg */; };
+		52EC8BAE1B94481500896BAA /* 孙毅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B711B94481500896BAA /* 孙毅.jpg */; };
+		52EC8BAF1B94481500896BAA /* 孙高杰.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B721B94481500896BAA /* 孙高杰.jpg */; };
+		52EC8BB01B94481500896BAA /* 宁唯.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B731B94481500896BAA /* 宁唯.jpg */; };
+		52EC8BB11B94481500896BAA /* 宋秋均.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B741B94481500896BAA /* 宋秋均.jpg */; };
+		52EC8BB21B94481500896BAA /* 宋静.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B751B94481500896BAA /* 宋静.jpg */; };
+		52EC8BB31B94481500896BAA /* 庄媛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B761B94481500896BAA /* 庄媛.jpg */; };
+		52EC8BB41B94481500896BAA /* 张开宇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B771B94481500896BAA /* 张开宇.jpg */; };
+		52EC8BB51B94481500896BAA /* 张涛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B781B94481500896BAA /* 张涛.jpg */; };
+		52EC8BB61B94481500896BAA /* 张罡雷.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B791B94481500896BAA /* 张罡雷.jpg */; };
+		52EC8BB71B94481500896BAA /* 张莉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B7A1B94481500896BAA /* 张莉.jpg */; };
+		52EC8BB81B94481500896BAA /* 张雅鑫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B7B1B94481500896BAA /* 张雅鑫.jpg */; };
+		52EC8BB91B94481500896BAA /* 施永辉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B7C1B94481500896BAA /* 施永辉.jpg */; };
+		52EC8BBA1B94481500896BAA /* 时铁庄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B7D1B94481500896BAA /* 时铁庄.jpg */; };
+		52EC8BBB1B94481500896BAA /* 李万达.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B7E1B94481500896BAA /* 李万达.jpg */; };
+		52EC8BBC1B94481500896BAA /* 李向荣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B7F1B94481500896BAA /* 李向荣.jpg */; };
+		52EC8BBD1B94481500896BAA /* 李建行.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B801B94481500896BAA /* 李建行.jpg */; };
+		52EC8BBE1B94481500896BAA /* 李春菲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B811B94481500896BAA /* 李春菲.jpg */; };
+		52EC8BBF1B94481500896BAA /* 李楠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B821B94481500896BAA /* 李楠.jpg */; };
+		52EC8BC01B94481500896BAA /* 李笃兴.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B831B94481500896BAA /* 李笃兴.jpg */; };
+		52EC8BC11B94481500896BAA /* 李艳华.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B841B94481500896BAA /* 李艳华.jpg */; };
+		52EC8BC21B94481500896BAA /* 李荣建.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B851B94481500896BAA /* 李荣建.jpg */; };
+		52EC8BC31B94481500896BAA /* 杜新元.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B861B94481500896BAA /* 杜新元.jpg */; };
+		52EC8BC41B94481500896BAA /* 杨洋洋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B871B94481500896BAA /* 杨洋洋.jpg */; };
+		52EC8BC51B94481500896BAA /* 校付苹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B881B94481500896BAA /* 校付苹.jpg */; };
+		52EC8BC61B94481500896BAA /* 江晨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B891B94481500896BAA /* 江晨.jpg */; };
+		52EC8BC71B94481500896BAA /* 汪磊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B8A1B94481500896BAA /* 汪磊.jpg */; };
+		52EC8BC81B94481500896BAA /* 狄博超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B8B1B94481500896BAA /* 狄博超.jpg */; };
+		52EC8BC91B94481500896BAA /* 王新国.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B8C1B94481500896BAA /* 王新国.jpg */; };
+		52EC8BCA1B94481500896BAA /* 王琛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B8D1B94481500896BAA /* 王琛.jpg */; };
+		52EC8BCB1B94481500896BAA /* 王超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B8E1B94481500896BAA /* 王超.jpg */; };
+		52EC8BCC1B94481500896BAA /* 白益骏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B8F1B94481500896BAA /* 白益骏.jpg */; };
+		52EC8BCD1B94481500896BAA /* 白蕊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B901B94481500896BAA /* 白蕊.jpg */; };
+		52EC8BCE1B94481500896BAA /* 胡春源.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B911B94481500896BAA /* 胡春源.jpg */; };
+		52EC8BCF1B94481500896BAA /* 蔡献敏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B921B94481500896BAA /* 蔡献敏.jpg */; };
+		52EC8BD01B94481500896BAA /* 谢健.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B931B94481500896BAA /* 谢健.jpg */; };
+		52EC8BD11B94481500896BAA /* 谢培.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B941B94481500896BAA /* 谢培.jpg */; };
+		52EC8BD21B94481500896BAA /* 赵小磊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B951B94481500896BAA /* 赵小磊.jpg */; };
+		52EC8BD31B94481500896BAA /* 郝鹏达.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B961B94481500896BAA /* 郝鹏达.jpg */; };
+		52EC8BD41B94481500896BAA /* 郭明旺.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B971B94481500896BAA /* 郭明旺.jpg */; };
+		52EC8BD51B94481500896BAA /* 钟勃.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B981B94481500896BAA /* 钟勃.jpg */; };
+		52EC8BD61B94481500896BAA /* 陈星旺.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B991B94481500896BAA /* 陈星旺.jpg */; };
+		52EC8BD71B94481500896BAA /* 陈玉亮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B9A1B94481500896BAA /* 陈玉亮.jpg */; };
+		52EC8BD81B94481500896BAA /* 陈鹏举.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B9B1B94481500896BAA /* 陈鹏举.jpg */; };
+		52EC8BD91B94481500896BAA /* 顾利.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B9C1B94481500896BAA /* 顾利.jpg */; };
+		52EC8BDA1B94481500896BAA /* 马子超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B9D1B94481500896BAA /* 马子超.jpg */; };
+		52EC8BDB1B94481500896BAA /* 马志威.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B9E1B94481500896BAA /* 马志威.jpg */; };
+		52EC8BDC1B94481500896BAA /* 黄玉炎.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8B9F1B94481500896BAA /* 黄玉炎.jpg */; };
+		52EC8BDF1B944DE000896BAA /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC8BDE1B944DE000896BAA /* MyCell.m */; };
+		52EC8BE11B944DEF00896BAA /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EC8BE01B944DEF00896BAA /* MyCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52EC8B4D1B9446EE00896BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EC8B311B9446EE00896BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EC8B381B9446EE00896BAA;
+			remoteInfo = "LessonUI-14-CustomizeCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52EC8B391B9446EE00896BAA /* LessonUI-14-CustomizeCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LessonUI-14-CustomizeCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EC8B3D1B9446EE00896BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EC8B3E1B9446EE00896BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52EC8B401B9446EE00896BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52EC8B411B9446EE00896BAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52EC8B431B9446EE00896BAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52EC8B461B9446EE00896BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52EC8B4C1B9446EE00896BAA /* LessonUI-14-CustomizeCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LessonUI-14-CustomizeCellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EC8B511B9446EE00896BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EC8B521B9446EE00896BAA /* LessonUI_14_CustomizeCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonUI_14_CustomizeCellTests.m; sourceTree = "<group>"; };
+		52EC8B5C1B94478200896BAA /* ContactListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListTVC.h; sourceTree = "<group>"; };
+		52EC8B5D1B94478200896BAA /* ContactListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListTVC.m; sourceTree = "<group>"; };
+		52EC8B601B94481500896BAA /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		52EC8B611B94481500896BAA /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		52EC8B621B94481500896BAA /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contacts.plist; sourceTree = "<group>"; };
+		52EC8B631B94481500896BAA /* DataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandle.h; sourceTree = "<group>"; };
+		52EC8B641B94481500896BAA /* DataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandle.m; sourceTree = "<group>"; };
+		52EC8B661B94481500896BAA /* 丁岩松.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "丁岩松.jpg"; sourceTree = "<group>"; };
+		52EC8B671B94481500896BAA /* 于潘洋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "于潘洋.jpg"; sourceTree = "<group>"; };
+		52EC8B681B94481500896BAA /* 伊秀利.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "伊秀利.jpg"; sourceTree = "<group>"; };
+		52EC8B691B94481500896BAA /* 位丹丹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "位丹丹.jpg"; sourceTree = "<group>"; };
+		52EC8B6A1B94481500896BAA /* 佟锡杰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "佟锡杰.jpg"; sourceTree = "<group>"; };
+		52EC8B6B1B94481500896BAA /* 刘晔琦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘晔琦.jpg"; sourceTree = "<group>"; };
+		52EC8B6C1B94481500896BAA /* 刘静.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘静.jpg"; sourceTree = "<group>"; };
+		52EC8B6D1B94481500896BAA /* 吕玉楠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吕玉楠.jpg"; sourceTree = "<group>"; };
+		52EC8B6E1B94481500896BAA /* 吴頔.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吴頔.jpg"; sourceTree = "<group>"; };
+		52EC8B6F1B94481500896BAA /* 夏汝震.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "夏汝震.jpg"; sourceTree = "<group>"; };
+		52EC8B701B94481500896BAA /* 姚立军.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "姚立军.jpg"; sourceTree = "<group>"; };
+		52EC8B711B94481500896BAA /* 孙毅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "孙毅.jpg"; sourceTree = "<group>"; };
+		52EC8B721B94481500896BAA /* 孙高杰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "孙高杰.jpg"; sourceTree = "<group>"; };
+		52EC8B731B94481500896BAA /* 宁唯.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宁唯.jpg"; sourceTree = "<group>"; };
+		52EC8B741B94481500896BAA /* 宋秋均.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宋秋均.jpg"; sourceTree = "<group>"; };
+		52EC8B751B94481500896BAA /* 宋静.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宋静.jpg"; sourceTree = "<group>"; };
+		52EC8B761B94481500896BAA /* 庄媛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "庄媛.jpg"; sourceTree = "<group>"; };
+		52EC8B771B94481500896BAA /* 张开宇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张开宇.jpg"; sourceTree = "<group>"; };
+		52EC8B781B94481500896BAA /* 张涛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张涛.jpg"; sourceTree = "<group>"; };
+		52EC8B791B94481500896BAA /* 张罡雷.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张罡雷.jpg"; sourceTree = "<group>"; };
+		52EC8B7A1B94481500896BAA /* 张莉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张莉.jpg"; sourceTree = "<group>"; };
+		52EC8B7B1B94481500896BAA /* 张雅鑫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张雅鑫.jpg"; sourceTree = "<group>"; };
+		52EC8B7C1B94481500896BAA /* 施永辉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "施永辉.jpg"; sourceTree = "<group>"; };
+		52EC8B7D1B94481500896BAA /* 时铁庄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时铁庄.jpg"; sourceTree = "<group>"; };
+		52EC8B7E1B94481500896BAA /* 李万达.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李万达.jpg"; sourceTree = "<group>"; };
+		52EC8B7F1B94481500896BAA /* 李向荣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李向荣.jpg"; sourceTree = "<group>"; };
+		52EC8B801B94481500896BAA /* 李建行.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李建行.jpg"; sourceTree = "<group>"; };
+		52EC8B811B94481500896BAA /* 李春菲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李春菲.jpg"; sourceTree = "<group>"; };
+		52EC8B821B94481500896BAA /* 李楠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李楠.jpg"; sourceTree = "<group>"; };
+		52EC8B831B94481500896BAA /* 李笃兴.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李笃兴.jpg"; sourceTree = "<group>"; };
+		52EC8B841B94481500896BAA /* 李艳华.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李艳华.jpg"; sourceTree = "<group>"; };
+		52EC8B851B94481500896BAA /* 李荣建.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李荣建.jpg"; sourceTree = "<group>"; };
+		52EC8B861B94481500896BAA /* 杜新元.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杜新元.jpg"; sourceTree = "<group>"; };
+		52EC8B871B94481500896BAA /* 杨洋洋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杨洋洋.jpg"; sourceTree = "<group>"; };
+		52EC8B881B94481500896BAA /* 校付苹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "校付苹.jpg"; sourceTree = "<group>"; };
+		52EC8B891B94481500896BAA /* 江晨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "江晨.jpg"; sourceTree = "<group>"; };
+		52EC8B8A1B94481500896BAA /* 汪磊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "汪磊.jpg"; sourceTree = "<group>"; };
+		52EC8B8B1B94481500896BAA /* 狄博超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狄博超.jpg"; sourceTree = "<group>"; };
+		52EC8B8C1B94481500896BAA /* 王新国.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王新国.jpg"; sourceTree = "<group>"; };
+		52EC8B8D1B94481500896BAA /* 王琛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王琛.jpg"; sourceTree = "<group>"; };
+		52EC8B8E1B94481500896BAA /* 王超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王超.jpg"; sourceTree = "<group>"; };
+		52EC8B8F1B94481500896BAA /* 白益骏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白益骏.jpg"; sourceTree = "<group>"; };
+		52EC8B901B94481500896BAA /* 白蕊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白蕊.jpg"; sourceTree = "<group>"; };
+		52EC8B911B94481500896BAA /* 胡春源.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "胡春源.jpg"; sourceTree = "<group>"; };
+		52EC8B921B94481500896BAA /* 蔡献敏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蔡献敏.jpg"; sourceTree = "<group>"; };
+		52EC8B931B94481500896BAA /* 谢健.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "谢健.jpg"; sourceTree = "<group>"; };
+		52EC8B941B94481500896BAA /* 谢培.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "谢培.jpg"; sourceTree = "<group>"; };
+		52EC8B951B94481500896BAA /* 赵小磊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "赵小磊.jpg"; sourceTree = "<group>"; };
+		52EC8B961B94481500896BAA /* 郝鹏达.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "郝鹏达.jpg"; sourceTree = "<group>"; };
+		52EC8B971B94481500896BAA /* 郭明旺.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "郭明旺.jpg"; sourceTree = "<group>"; };
+		52EC8B981B94481500896BAA /* 钟勃.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "钟勃.jpg"; sourceTree = "<group>"; };
+		52EC8B991B94481500896BAA /* 陈星旺.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈星旺.jpg"; sourceTree = "<group>"; };
+		52EC8B9A1B94481500896BAA /* 陈玉亮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈玉亮.jpg"; sourceTree = "<group>"; };
+		52EC8B9B1B94481500896BAA /* 陈鹏举.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈鹏举.jpg"; sourceTree = "<group>"; };
+		52EC8B9C1B94481500896BAA /* 顾利.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "顾利.jpg"; sourceTree = "<group>"; };
+		52EC8B9D1B94481500896BAA /* 马子超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马子超.jpg"; sourceTree = "<group>"; };
+		52EC8B9E1B94481500896BAA /* 马志威.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马志威.jpg"; sourceTree = "<group>"; };
+		52EC8B9F1B94481500896BAA /* 黄玉炎.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄玉炎.jpg"; sourceTree = "<group>"; };
+		52EC8BDD1B944DE000896BAA /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		52EC8BDE1B944DE000896BAA /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		52EC8BE01B944DEF00896BAA /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EC8B361B9446EE00896BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EC8B491B9446EE00896BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52EC8B301B9446EE00896BAA = {
+			isa = PBXGroup;
+			children = (
+				52EC8B3B1B9446EE00896BAA /* LessonUI-14-CustomizeCell */,
+				52EC8B4F1B9446EE00896BAA /* LessonUI-14-CustomizeCellTests */,
+				52EC8B3A1B9446EE00896BAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EC8B3A1B9446EE00896BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EC8B391B9446EE00896BAA /* LessonUI-14-CustomizeCell.app */,
+				52EC8B4C1B9446EE00896BAA /* LessonUI-14-CustomizeCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EC8B3B1B9446EE00896BAA /* LessonUI-14-CustomizeCell */ = {
+			isa = PBXGroup;
+			children = (
+				52EC8B401B9446EE00896BAA /* AppDelegate.h */,
+				52EC8B411B9446EE00896BAA /* AppDelegate.m */,
+				52EC8B5C1B94478200896BAA /* ContactListTVC.h */,
+				52EC8B5D1B94478200896BAA /* ContactListTVC.m */,
+				52EC8BDD1B944DE000896BAA /* MyCell.h */,
+				52EC8BDE1B944DE000896BAA /* MyCell.m */,
+				52EC8BE01B944DEF00896BAA /* MyCell.xib */,
+				52EC8B431B9446EE00896BAA /* Images.xcassets */,
+				52EC8B5F1B94481500896BAA /* Model */,
+				52EC8B451B9446EE00896BAA /* LaunchScreen.xib */,
+				52EC8B3C1B9446EE00896BAA /* Supporting Files */,
+			);
+			path = "LessonUI-14-CustomizeCell";
+			sourceTree = "<group>";
+		};
+		52EC8B3C1B9446EE00896BAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EC8B3D1B9446EE00896BAA /* Info.plist */,
+				52EC8B3E1B9446EE00896BAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52EC8B4F1B9446EE00896BAA /* LessonUI-14-CustomizeCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				52EC8B521B9446EE00896BAA /* LessonUI_14_CustomizeCellTests.m */,
+				52EC8B501B9446EE00896BAA /* Supporting Files */,
+			);
+			path = "LessonUI-14-CustomizeCellTests";
+			sourceTree = "<group>";
+		};
+		52EC8B501B9446EE00896BAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EC8B511B9446EE00896BAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52EC8B5F1B94481500896BAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52EC8B601B94481500896BAA /* Contact.h */,
+				52EC8B611B94481500896BAA /* Contact.m */,
+				52EC8B621B94481500896BAA /* Contacts.plist */,
+				52EC8B631B94481500896BAA /* DataHandle.h */,
+				52EC8B641B94481500896BAA /* DataHandle.m */,
+				52EC8B651B94481500896BAA /* photo */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52EC8B651B94481500896BAA /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				52EC8B661B94481500896BAA /* 丁岩松.jpg */,
+				52EC8B671B94481500896BAA /* 于潘洋.jpg */,
+				52EC8B681B94481500896BAA /* 伊秀利.jpg */,
+				52EC8B691B94481500896BAA /* 位丹丹.jpg */,
+				52EC8B6A1B94481500896BAA /* 佟锡杰.jpg */,
+				52EC8B6B1B94481500896BAA /* 刘晔琦.jpg */,
+				52EC8B6C1B94481500896BAA /* 刘静.jpg */,
+				52EC8B6D1B94481500896BAA /* 吕玉楠.jpg */,
+				52EC8B6E1B94481500896BAA /* 吴頔.jpg */,
+				52EC8B6F1B94481500896BAA /* 夏汝震.jpg */,
+				52EC8B701B94481500896BAA /* 姚立军.jpg */,
+				52EC8B711B94481500896BAA /* 孙毅.jpg */,
+				52EC8B721B94481500896BAA /* 孙高杰.jpg */,
+				52EC8B731B94481500896BAA /* 宁唯.jpg */,
+				52EC8B741B94481500896BAA /* 宋秋均.jpg */,
+				52EC8B751B94481500896BAA /* 宋静.jpg */,
+				52EC8B761B94481500896BAA /* 庄媛.jpg */,
+				52EC8B771B94481500896BAA /* 张开宇.jpg */,
+				52EC8B781B94481500896BAA /* 张涛.jpg */,
+				52EC8B791B94481500896BAA /* 张罡雷.jpg */,
+				52EC8B7A1B94481500896BAA /* 张莉.jpg */,
+				52EC8B7B1B94481500896BAA /* 张雅鑫.jpg */,
+				52EC8B7C1B94481500896BAA /* 施永辉.jpg */,
+				52EC8B7D1B94481500896BAA /* 时铁庄.jpg */,
+				52EC8B7E1B94481500896BAA /* 李万达.jpg */,
+				52EC8B7F1B94481500896BAA /* 李向荣.jpg */,
+				52EC8B801B94481500896BAA /* 李建行.jpg */,
+				52EC8B811B94481500896BAA /* 李春菲.jpg */,
+				52EC8B821B94481500896BAA /* 李楠.jpg */,
+				52EC8B831B94481500896BAA /* 李笃兴.jpg */,
+				52EC8B841B94481500896BAA /* 李艳华.jpg */,
+				52EC8B851B94481500896BAA /* 李荣建.jpg */,
+				52EC8B861B94481500896BAA /* 杜新元.jpg */,
+				52EC8B871B94481500896BAA /* 杨洋洋.jpg */,
+				52EC8B881B94481500896BAA /* 校付苹.jpg */,
+				52EC8B891B94481500896BAA /* 江晨.jpg */,
+				52EC8B8A1B94481500896BAA /* 汪磊.jpg */,
+				52EC8B8B1B94481500896BAA /* 狄博超.jpg */,
+				52EC8B8C1B94481500896BAA /* 王新国.jpg */,
+				52EC8B8D1B94481500896BAA /* 王琛.jpg */,
+				52EC8B8E1B94481500896BAA /* 王超.jpg */,
+				52EC8B8F1B94481500896BAA /* 白益骏.jpg */,
+				52EC8B901B94481500896BAA /* 白蕊.jpg */,
+				52EC8B911B94481500896BAA /* 胡春源.jpg */,
+				52EC8B921B94481500896BAA /* 蔡献敏.jpg */,
+				52EC8B931B94481500896BAA /* 谢健.jpg */,
+				52EC8B941B94481500896BAA /* 谢培.jpg */,
+				52EC8B951B94481500896BAA /* 赵小磊.jpg */,
+				52EC8B961B94481500896BAA /* 郝鹏达.jpg */,
+				52EC8B971B94481500896BAA /* 郭明旺.jpg */,
+				52EC8B981B94481500896BAA /* 钟勃.jpg */,
+				52EC8B991B94481500896BAA /* 陈星旺.jpg */,
+				52EC8B9A1B94481500896BAA /* 陈玉亮.jpg */,
+				52EC8B9B1B94481500896BAA /* 陈鹏举.jpg */,
+				52EC8B9C1B94481500896BAA /* 顾利.jpg */,
+				52EC8B9D1B94481500896BAA /* 马子超.jpg */,
+				52EC8B9E1B94481500896BAA /* 马志威.jpg */,
+				52EC8B9F1B94481500896BAA /* 黄玉炎.jpg */,
+			);
+			path = photo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EC8B381B9446EE00896BAA /* LessonUI-14-CustomizeCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EC8B561B9446EE00896BAA /* Build configuration list for PBXNativeTarget "LessonUI-14-CustomizeCell" */;
+			buildPhases = (
+				52EC8B351B9446EE00896BAA /* Sources */,
+				52EC8B361B9446EE00896BAA /* Frameworks */,
+				52EC8B371B9446EE00896BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LessonUI-14-CustomizeCell";
+			productName = "LessonUI-14-CustomizeCell";
+			productReference = 52EC8B391B9446EE00896BAA /* LessonUI-14-CustomizeCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52EC8B4B1B9446EE00896BAA /* LessonUI-14-CustomizeCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EC8B591B9446EE00896BAA /* Build configuration list for PBXNativeTarget "LessonUI-14-CustomizeCellTests" */;
+			buildPhases = (
+				52EC8B481B9446EE00896BAA /* Sources */,
+				52EC8B491B9446EE00896BAA /* Frameworks */,
+				52EC8B4A1B9446EE00896BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EC8B4E1B9446EE00896BAA /* PBXTargetDependency */,
+			);
+			name = "LessonUI-14-CustomizeCellTests";
+			productName = "LessonUI-14-CustomizeCellTests";
+			productReference = 52EC8B4C1B9446EE00896BAA /* LessonUI-14-CustomizeCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EC8B311B9446EE00896BAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Lafree;
+				TargetAttributes = {
+					52EC8B381B9446EE00896BAA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					52EC8B4B1B9446EE00896BAA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52EC8B381B9446EE00896BAA;
+					};
+				};
+			};
+			buildConfigurationList = 52EC8B341B9446EE00896BAA /* Build configuration list for PBXProject "LessonUI-14-CustomizeCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EC8B301B9446EE00896BAA;
+			productRefGroup = 52EC8B3A1B9446EE00896BAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EC8B381B9446EE00896BAA /* LessonUI-14-CustomizeCell */,
+				52EC8B4B1B9446EE00896BAA /* LessonUI-14-CustomizeCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EC8B371B9446EE00896BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EC8BC21B94481500896BAA /* 李荣建.jpg in Resources */,
+				52EC8BDA1B94481500896BAA /* 马子超.jpg in Resources */,
+				52EC8BCB1B94481500896BAA /* 王超.jpg in Resources */,
+				52EC8BB31B94481500896BAA /* 庄媛.jpg in Resources */,
+				52EC8BC51B94481500896BAA /* 校付苹.jpg in Resources */,
+				52EC8BA91B94481500896BAA /* 刘静.jpg in Resources */,
+				52EC8BAB1B94481500896BAA /* 吴頔.jpg in Resources */,
+				52EC8BC81B94481500896BAA /* 狄博超.jpg in Resources */,
+				52EC8BCA1B94481500896BAA /* 王琛.jpg in Resources */,
+				52EC8BBF1B94481500896BAA /* 李楠.jpg in Resources */,
+				52EC8BCC1B94481500896BAA /* 白益骏.jpg in Resources */,
+				52EC8BD11B94481500896BAA /* 谢培.jpg in Resources */,
+				52EC8BA41B94481500896BAA /* 于潘洋.jpg in Resources */,
+				52EC8BD81B94481500896BAA /* 陈鹏举.jpg in Resources */,
+				52EC8B471B9446EE00896BAA /* LaunchScreen.xib in Resources */,
+				52EC8BD71B94481500896BAA /* 陈玉亮.jpg in Resources */,
+				52EC8BBB1B94481500896BAA /* 李万达.jpg in Resources */,
+				52EC8BA11B94481500896BAA /* Contacts.plist in Resources */,
+				52EC8BCD1B94481500896BAA /* 白蕊.jpg in Resources */,
+				52EC8BB71B94481500896BAA /* 张莉.jpg in Resources */,
+				52EC8BA81B94481500896BAA /* 刘晔琦.jpg in Resources */,
+				52EC8BE11B944DEF00896BAA /* MyCell.xib in Resources */,
+				52EC8BD21B94481500896BAA /* 赵小磊.jpg in Resources */,
+				52EC8BAA1B94481500896BAA /* 吕玉楠.jpg in Resources */,
+				52EC8BC61B94481500896BAA /* 江晨.jpg in Resources */,
+				52EC8BD51B94481500896BAA /* 钟勃.jpg in Resources */,
+				52EC8BD61B94481500896BAA /* 陈星旺.jpg in Resources */,
+				52EC8BAF1B94481500896BAA /* 孙高杰.jpg in Resources */,
+				52EC8BA61B94481500896BAA /* 位丹丹.jpg in Resources */,
+				52EC8BB11B94481500896BAA /* 宋秋均.jpg in Resources */,
+				52EC8BA51B94481500896BAA /* 伊秀利.jpg in Resources */,
+				52EC8BDB1B94481500896BAA /* 马志威.jpg in Resources */,
+				52EC8BB51B94481500896BAA /* 张涛.jpg in Resources */,
+				52EC8BC41B94481500896BAA /* 杨洋洋.jpg in Resources */,
+				52EC8BA31B94481500896BAA /* 丁岩松.jpg in Resources */,
+				52EC8BBA1B94481500896BAA /* 时铁庄.jpg in Resources */,
+				52EC8BD01B94481500896BAA /* 谢健.jpg in Resources */,
+				52EC8BB21B94481500896BAA /* 宋静.jpg in Resources */,
+				52EC8BC11B94481500896BAA /* 李艳华.jpg in Resources */,
+				52EC8BCE1B94481500896BAA /* 胡春源.jpg in Resources */,
+				52EC8BAE1B94481500896BAA /* 孙毅.jpg in Resources */,
+				52EC8BC71B94481500896BAA /* 汪磊.jpg in Resources */,
+				52EC8BB81B94481500896BAA /* 张雅鑫.jpg in Resources */,
+				52EC8BD91B94481500896BAA /* 顾利.jpg in Resources */,
+				52EC8BBC1B94481500896BAA /* 李向荣.jpg in Resources */,
+				52EC8BDC1B94481500896BAA /* 黄玉炎.jpg in Resources */,
+				52EC8BAD1B94481500896BAA /* 姚立军.jpg in Resources */,
+				52EC8BB61B94481500896BAA /* 张罡雷.jpg in Resources */,
+				52EC8BCF1B94481500896BAA /* 蔡献敏.jpg in Resources */,
+				52EC8BC01B94481500896BAA /* 李笃兴.jpg in Resources */,
+				52EC8BA71B94481500896BAA /* 佟锡杰.jpg in Resources */,
+				52EC8BBD1B94481500896BAA /* 李建行.jpg in Resources */,
+				52EC8BAC1B94481500896BAA /* 夏汝震.jpg in Resources */,
+				52EC8BD31B94481500896BAA /* 郝鹏达.jpg in Resources */,
+				52EC8BB41B94481500896BAA /* 张开宇.jpg in Resources */,
+				52EC8BC91B94481500896BAA /* 王新国.jpg in Resources */,
+				52EC8BB01B94481500896BAA /* 宁唯.jpg in Resources */,
+				52EC8BBE1B94481500896BAA /* 李春菲.jpg in Resources */,
+				52EC8BC31B94481500896BAA /* 杜新元.jpg in Resources */,
+				52EC8BD41B94481500896BAA /* 郭明旺.jpg in Resources */,
+				52EC8BB91B94481500896BAA /* 施永辉.jpg in Resources */,
+				52EC8B441B9446EE00896BAA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EC8B4A1B9446EE00896BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EC8B351B9446EE00896BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EC8BA01B94481500896BAA /* Contact.m in Sources */,
+				52EC8B421B9446EE00896BAA /* AppDelegate.m in Sources */,
+				52EC8B5E1B94478200896BAA /* ContactListTVC.m in Sources */,
+				52EC8BA21B94481500896BAA /* DataHandle.m in Sources */,
+				52EC8B3F1B9446EE00896BAA /* main.m in Sources */,
+				52EC8BDF1B944DE000896BAA /* MyCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EC8B481B9446EE00896BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EC8B531B9446EE00896BAA /* LessonUI_14_CustomizeCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52EC8B4E1B9446EE00896BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EC8B381B9446EE00896BAA /* LessonUI-14-CustomizeCell */;
+			targetProxy = 52EC8B4D1B9446EE00896BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52EC8B451B9446EE00896BAA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EC8B461B9446EE00896BAA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EC8B541B9446EE00896BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52EC8B551B9446EE00896BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EC8B571B9446EE00896BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "LessonUI-14-CustomizeCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52EC8B581B9446EE00896BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "LessonUI-14-CustomizeCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52EC8B5A1B9446EE00896BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-14-CustomizeCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-14-CustomizeCell.app/LessonUI-14-CustomizeCell";
+			};
+			name = Debug;
+		};
+		52EC8B5B1B9446EE00896BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonUI-14-CustomizeCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LessonUI-14-CustomizeCell.app/LessonUI-14-CustomizeCell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EC8B341B9446EE00896BAA /* Build configuration list for PBXProject "LessonUI-14-CustomizeCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EC8B541B9446EE00896BAA /* Debug */,
+				52EC8B551B9446EE00896BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EC8B561B9446EE00896BAA /* Build configuration list for PBXNativeTarget "LessonUI-14-CustomizeCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EC8B571B9446EE00896BAA /* Debug */,
+				52EC8B581B9446EE00896BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52EC8B591B9446EE00896BAA /* Build configuration list for PBXNativeTarget "LessonUI-14-CustomizeCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EC8B5A1B9446EE00896BAA /* Debug */,
+				52EC8B5B1B9446EE00896BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EC8B311B9446EE00896BAA /* Project object */;
+}
